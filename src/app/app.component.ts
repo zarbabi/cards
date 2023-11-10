@@ -18,6 +18,6 @@ export class AppComponent {
   ];
 
  getPosts(){
-   return this.posts
+   return this.posts;
  }
 }
