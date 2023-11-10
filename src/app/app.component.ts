@@ -16,4 +16,8 @@ export class AppComponent {
     { title: 'pic2', imgeUrl: 'assets/images/pic2.jpeg', username: 'pic2', content: 'this is pic2' },
     { title: 'pic3', imgeUrl: 'assets/images/pic3.jpeg', username: 'pic3', content: 'this is pic3' },
   ];
+
+ getPosts(){
+   return this.posts
+ }
 }
